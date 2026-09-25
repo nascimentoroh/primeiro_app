@@ -50,4 +50,4 @@ if st.button("Calcular", type="primary", use_container_width=True):
         else:
             resultado = numero_1 / numero_2
             st.balloons()  # Solta os balões na tela
-            st.metric(label="Resultado da Divisão", value=f"{resultado:.2f}
+            st.metric(label="Resultado da Divisão", value=f"{resultado:.2f}")
